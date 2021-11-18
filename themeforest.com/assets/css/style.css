@@ -1,0 +1,165 @@
+.header-top-flex{
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-flex div{
+    padding: 20px;
+}
+
+.header-top-flex .left-side img{
+background-repeat: no-repeat;
+background-position-y: center;
+width: 150px;
+height: 20px;
+}
+
+.header-top-flex .right-side a{
+    background-color: #82b440;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+.header-top-flex .right-side a:hover{
+    transition: .5s;
+    background-color:#506e29;
+}
+
+.header-bottom .slider img{
+    width: 100%;
+}
+
+#about-me{
+    margin: 80px 0px;
+}
+
+#about-me .tittle{
+    text-align: center;
+}
+
+#about-me .tittle .about-tittle{
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#about-me .tittle .about-tittle h1{
+    color: #777;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+#about-me .tittle .about-tittle h1 span{
+    color: black;
+    font-weight: 700;
+}
+
+#about-me .tittle .about-tittle::after{
+    content: "";
+    left: 47%;
+    height: 0px;
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #777;
+}
+
+#about-me .tittle .short-context{
+    color: #777;
+    font-weight: 100;
+}
+
+#about-me .about-context-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#about-me .about-context-flex img{
+    width: 474px;
+    height: 340px;
+}
+
+#about-me .about-context-flex .context{
+    padding: 30px 90px;
+} 
+
+#about-me .about-context-flex .context h2{
+    color: #777;
+    font-weight: 100;
+    padding-bottom: 15px;
+} 
+
+#about-me .about-context-flex .context h2 span{
+    color: black;
+    font-weight: 700;
+} 
+
+#about-me .about-context-flex .context p{
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+    width: 500px;
+    height: 225px;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 100;
+    overflow: hidden;
+    margin-bottom: 25px;
+} 
+
+#about-me .about-context-flex .context a{
+    background-color:  #333;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+#about-me .about-context-flex .context a:hover{
+    transition: .5s;
+    background-color: #777;
+}
+
+#what-i-do{
+    margin: 80px 0px;
+}
+
+#what-i-do .tittle{
+    text-align: center;
+}
+
+#what-i-do .tittle .about-tittle{
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#what-i-do .tittle .about-tittle h1{
+    color: #777;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+#what-i-do .tittle .about-tittle h1 span{
+    color: black;
+    font-weight: 700;
+}
+
+#what-i-do .tittle .about-tittle::after{
+    content: "";
+    left: 47%;
+    height: 0px;
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #777;
+}
+
+#what-i-do .tittle .short-context{
+    color: #777;
+    font-weight: 100;
+}
+
