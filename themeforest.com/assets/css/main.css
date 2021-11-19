@@ -9,6 +9,11 @@
     margin: 0 auto;
   }
 
+  .form-container {
+    width: 700px;
+    margin: 0 auto;
+  }
+
   .img-fluid {
     max-width: 100% !important;
   }
