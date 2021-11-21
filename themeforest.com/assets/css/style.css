@@ -172,12 +172,26 @@
 }
 
 #what-i-do .tittle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	text-align: center;
 }
 
 #what-i-do .tittle .what-tittle {
 	position: relative;
 	padding-bottom: 30px;
+}
+
+#what-i-do .tittle .what-tittle::after {
+	content: "";
+	left: 18px;
+	top: 50px;
+	height: 0px;
+	position: absolute;
+	width: 60px;
+	height: 1px;
+	background-color: #777;
 }
 
 #what-i-do .tittle .what-tittle h1 {
@@ -191,17 +205,9 @@
 	font-weight: 700;
 }
 
-#what-i-do .tittle .what-tittle::after {
-	content: "";
-	left: 47%;
-	height: 0px;
-	position: absolute;
-	width: 60px;
-	height: 1px;
-	background-color: #777;
-}
-
 #what-i-do .tittle .short-context {
+	width: calc(100%/12*12);
+	text-align: center;
 	color: #777;
 	font-weight: 100;
 }
@@ -210,7 +216,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 50px;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-align: center;
 	height: 420px;
 	align-content: space-between;
