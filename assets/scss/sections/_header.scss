@@ -1,0 +1,40 @@
+.header-top {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+	.header-top-flex {
+		background-color: #262626;
+		display: flex;
+		justify-content: space-between;
+
+		div {
+			padding: 20px;
+		}
+
+		.left-side {
+			img {
+				background-repeat: no-repeat;
+				background-position-y: center;
+				width: 150px;
+				height: 20px;
+			}
+		}
+
+		.right-side {
+			a {
+				background-color: #82b440;
+				color: white;
+				text-decoration: none;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				padding: 8px 20px;
+			}
+
+			a:hover {
+				transition: .5s;
+				background-color: #506e29;
+			}
+		}
+	}
+}

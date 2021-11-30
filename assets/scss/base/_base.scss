@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+.form-container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.img-fluid {
+	max-width: 100% !important;
+}
+
+.flex-center {
+	@include main-flex-center;
+}
+
+.slider {
+	a {
+		left: 37%;
+	}
+}

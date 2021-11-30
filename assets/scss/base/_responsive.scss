@@ -1,0 +1,57 @@
+@media only screen and (max-width: $large-desktop) {
+	#about-me {
+		.about-context-flex {
+			justify-content: space-around;
+		}
+
+		.about-context-flex .context {
+			max-width: calc(100%/12*12);
+		}
+	}
+
+	.slider {
+		a {
+			left: 43%;
+		}
+	}
+}
+
+@media only screen and (max-width: $middle-tablet) {
+	.header-navbar-flex {
+		padding: 0 20px;
+
+		.right-side li {
+			padding: 20px 5px;
+		}
+	}
+
+	.slider {
+		a {
+			left: 40%;
+		}
+	}
+}
+
+@media only screen and (max-width: $small-phone) {
+	.header-top {
+		position: static;
+		width: 100%;
+		z-index: 9999;
+
+		.header-top-flex {
+			display: none;
+		}
+
+		.header-navbar-flex {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			height: 70px;
+
+			.right-side li {
+				width: calc(100%/12*2);
+				text-align: center;
+			}
+		}
+	}
+}
